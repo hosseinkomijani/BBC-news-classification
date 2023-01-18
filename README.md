@@ -18,8 +18,17 @@ Rosneft officials were unavailable for comment. But the company has said it inte
 The preprocessing part includes: tokenizing, stemming, stopwords and punctuation removal, lowering, etc., the vectorizer ic CountVectorizer and the classifier is MultinomialNB. 
 
 # Results
-Train:	   accuracy: 0.997431	    precision: 0.997431	   recall: 0.997431	   f1: 0.997431
+Train:	                                    accuracy: 0.997431	    precision: 0.997431	   recall: 0.997431	   f1: 0.997431
 
 Test:	     accuracy: 0.976048	   precision: 0.976048	   recall: 0.976048	   f1: 0.976048
 
 I gained very high results for the train and test stages, indicating that the preprocessing stage was so effective.
+
+#
+If you make use of the dataset, please consider citing the publication: 
+- D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006.
+
+All rights, including copyright, in the content of the original articles are owned by the BBC.
+
+Contact Derek Greene <derek.greene@ucd.ie> for further information.
+http://mlg.ucd.ie/datasets/bbc.html
