@@ -4,6 +4,7 @@ This is a code for BBC news classification. The database is included five class
 
 Dataset: http://mlg.ucd.ie/datasets/bbc.html
 
+# One sample of news
 this is a sample of one of the documents with class of business: 
 
 """ Yukos unit buyer faces loan claim
@@ -18,13 +19,10 @@ Rosneft officials were unavailable for comment. But the company has said it inte
 The preprocessing part includes: tokenizing, stemming, stopwords and punctuation removal, lowering, etc., the vectorizer ic CountVectorizer and the classifier is MultinomialNB. 
 
 # Results
-Train:	                                    accuracy: 0.997431	    precision: 0.997431	   recall: 0.997431	   f1: 0.997431
+Train:	   accuracy: 0.997431	   precision: 0.997431	   recall: 0.997431	   f1: 0.997431
 
 Test:	     accuracy: 0.976048	   precision: 0.976048	   recall: 0.976048	   f1: 0.976048
 
 I gained very high results for the train and test stages, indicating that the preprocessing stage was so effective.
 
-#
 
-These datasets are made available for non-commercial and research purposes only. The publication:
-D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006.
